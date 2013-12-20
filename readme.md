@@ -1,11 +1,9 @@
 CODENAME: GO
 ============
 
-AKA 1fiesta
+AKA 1Fiesta.com BY: Andy Chase
 
-BY: Andy Chase
-
-This is an Event Information Website displayer.
+This is an Event Information Map displayer.
 
 It has gone through many iterations but I have decided finally
 to place the latest source online for others to view.
@@ -14,10 +12,21 @@ The most interesting files are the [coffeescript files that handle the map](/sta
 
 VERSIONS
 --------
-As of 1-16:
 
-* Well, the functionalities basically all there.
-* What next?
+As of 2013:
+
+* Event scrapper re-written 3 times.
+* Minimal public viewing based on ElasticSearch
+
+As of 12-27:
+
+* Event scrapper scrapped.
+* Re-implement login for event adding
+
+As of 8-25:
+
+* Completely new brand. 1Fiesta.
+* New focus, not on social features.
 
 As of 8-24:
 
@@ -41,30 +50,20 @@ As of 6-23:
 * Basic framework established
 * VERY basic testing css layout
 
-As of 8-25:
+As of 1-16:
 
-* Completely new brand. 1Fiesta.
-* New focus, not on social features.
-
-As of 12-27:
-
-* Event scrapper scrapped.
-* Re-implement login for event adding
-
-As of 2013:
-
-* Event scrapper re-written 3 times.
-* Minimal public viewing based on ElasticSearch
+* Well, the functionalities basically all there.
+* What next?
 
 PLAN
 ----------------------------
 
 Next:
 
-* ~Todo above~
-~-Product done-~
-* ~Testing~
-* ~Improvements~
+* ~~Todo above~~
+~~-Product done-~~
+* ~~Testing~~
+* ~~Improvements~~
 * Person testing
 * JS Unit testing
 * Cheap Marketing
@@ -73,20 +72,18 @@ Next:
 Later: 
 
 * Professional styling
-* ~Partner with sources~ Event Scraper
+* ~~Partner with sources~~ Event Scraper
 * Slow improvements
 
 CODING STYLE
 ------------
 ```
-<pre>
 $likethis
 $nocaps
 $more_than_three_words_use_underscores
 
 functionname()
 really_long_function()
-</pre>
 ```
 
 LICENSE
