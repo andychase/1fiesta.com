@@ -1,0 +1,119 @@
+.recentpage {
+  .recentpagecontent {
+    margin-top: 70px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    a {
+      font-size: 12pt;
+    }
+  }
+  h3 {
+    font-style: italic;
+  }
+  #poweredby {
+    background-color: complement($bright);
+    height: 220px;
+    margin-bottom: 100px;
+    h2 {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-left: 125px;
+      font-weight: bold;
+    }
+    .photographers {
+      height: 153px;
+      margin-left: auto;
+      text-align: center;
+      a {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        vertical-align: top;
+        overflow: hidden;
+        height: 150px;
+        width: 130px;
+        margin: 1px;
+        span {
+          display: block;
+          height: 12pt;
+          text-align: center;
+
+        }
+        &.splitfour img {
+          width: 64px;
+          height: 64px;
+        }
+      }
+    }
+  }
+
+  #jumpto {
+    position: fixed;
+    top: 200px;
+    background-color: #aaa;
+    width: 100px;
+    color: white;
+    float: left;
+    margin-left: -106px;
+    box-shadow: -3px 3px black;
+    .header {
+      border-bottom: 2px dashed white;
+      padding-bottom: 1px;
+    }
+    li a {
+      color: white;
+      text-decoration: none;
+      border-right: 15px solid transparent;
+      &:hover {
+        padding-right: 1px;
+        border-right: 5px solid complement($bright);
+      }
+    }
+  }
+
+  .event {
+    h2 {
+      font-size: 36pt;
+      font-weight: bold;
+      position: relative;
+      bottom: -10px;
+      text-shadow: 1px solid black;
+      .minical {
+        top: -9px;
+        span {
+          border-color: black;
+          width: 24px;
+          padding-left: 1px;
+        }
+        .date {
+          font-size: 14pt;
+        }
+      }
+
+      .hiddendate {
+        display: none;
+        color: #aaa;
+        font-style: italic;
+        font-size: 12pt;
+        position: relative;
+        bottom: 12px;
+        &.active {
+          display: inline;
+
+        }
+      }
+    }
+    img.header {
+      display: block;
+    }
+
+}
+
+
+}

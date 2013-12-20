@@ -1,0 +1,46 @@
+/*
+ This style is for the more pages, or the pages that don't require a map.
+*/
+
+@import 'colors.scss';
+
+.morebody {
+  background-image: url('/static/img/sandbkg.jpg');
+}
+
+.morepage {
+  .morepagecontent {
+    padding-top: 70px;
+    padding-bottom: 200px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  h1 {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: 'Impact', sans-serif;
+    font-size: 40px;
+    margin-bottom: 32px;
+    margin-left: 10px;
+    color: $bright;
+    text-shadow: black -4px 4px 0;
+    margin-top: 30px;
+
+    span {
+      display: inline-block;
+      position: relative;
+      letter-spacing: -1px;
+      color: $bright;
+      z-index: 7;
+      -webkit-transition: all 0.2s ease-out;
+      &:hover {
+        top: 3px;
+      }
+    }
+  }
+}

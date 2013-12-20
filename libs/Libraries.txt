@@ -1,0 +1,31 @@
+GluePHP - The No framework framework.
+======
+LICENCE: BSD licence.
+
+Smarty
+======
+ - The most feature-filled template language.
+ - Commonly used, thus lots of support.
+ - Very good documentation.
+LICENCE: GNU LGPL
+
+PhpUnit - Common unit tester.
+======
+LICENCE: BSD licence.
+
+Simpleimage
+======
+
+sessions
+======
+
+pdo
+======
+
+3DCaptcha
+======
+
+
+
+
+

@@ -1,0 +1,64 @@
+#login_or_signup, #justregistered, .creategroup {
+  height: 220px;
+  margin-bottom: 50px;
+  h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 125px;
+    font-weight: bold;
+  }
+  .part {
+    border-right: 3px solid $bright;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    display: block;
+    width: 250px;
+    height: 250px;
+    float: left;
+  }
+  form, form div {
+    label {
+      margin-right: 3px;
+    }
+    text-align: right;
+    .submit {
+      background-color: black;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  form input {
+    width: 50%;
+    margin: 5px;
+  }
+  #signup_lastname, #signup_firstname {
+    width: 22%;
+  }
+  .why ul {
+    list-style: disc;
+    margin-left: 40px;
+    li {
+      margin-bottom: 10px;
+    }
+
+  }
+  .error {
+    text-align: center;
+  }
+}
+
+#justregistered {
+  text-align: center;
+  vertical-align: middle;
+  color: black;
+  font-weight: bold;
+  height: 100px;
+  display: block;
+  position: relative;
+  span {
+    position: relative;
+    top: 45%;
+    font-size: 12pt;
+  }
+}

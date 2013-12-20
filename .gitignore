@@ -1,0 +1,3 @@
+/templates/compile/*
+/templates/cache/*
+static/.sass-cache/*

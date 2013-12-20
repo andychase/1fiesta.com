@@ -1,0 +1,6 @@
+    108,110c108
+    <                     new RecursiveIteratorIterator(
+    <                       new RecursiveDirectoryIterator($path)
+    <                     ),
+    ---
+    >                       new RecursiveIteratorIterator(new RecursiveRegexIterator(new RecursiveDirectoryIterator($path, RecursiveDirectoryIterator::FOLLOW_SYMLINKS), '=\\\\[a-zA-Z0-9]='), true),

@@ -1,0 +1,12 @@
+/* Fixes for Internet Explorer */
+
+#contenttable tr td {
+    padding: 0;
+}
+
+#content {
+    padding-top: 60px;
+}
+
+
+
